@@ -1,0 +1,50 @@
+/* Modern Theme Variables */
+:root {
+--color-bg: #1a141f;                  /* Deep plum background */
+  --color-surface: #2a1f35;             /* Dark purple surface */
+  --color-primary: #ffb347;             /* Warm amber/orange for contrast */
+  --color-on-primary: #1a141f;          /* Dark text on light accent */
+  --color-on-surface: #e6d9f2;          /* Soft lavender for readability */
+  --color-accent: #c084fc;              /* Light purple accent */
+  --radius-default: 14px;
+  --font-sans: "Inter", "Segoe UI", sans-serif;
+  --transition-fast: 0.2s ease;
+}
+
+/* Global Reset & Base */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg);
+  color: var(--color-on-surface);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+a:hover {
+  color: var(--color-on-primary);
+}
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: var(--radius-default);
+  transition: background-color var(--transition-fast),
+    transform var(--transition-fast);
+}
+button:hover {
+  transform: translateY(-2px);
+}
