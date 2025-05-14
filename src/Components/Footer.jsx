@@ -14,8 +14,8 @@ export default function Footer() {
           >
             TMDB
           </a>
-          <Link to="/">Home</Link>
-          <Link to="/favorites">Favorites</Link>
+          <Link to="/">Home</Link>            {/* client-side navigation */}
+          <Link to="/favorites">Favorites</Link>  {/* fixed typo */}
         </div>
         <p className="Owner">Made By Mo_Wassef</p>
       </div>
