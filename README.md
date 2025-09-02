@@ -1,7 +1,6 @@
-# PIXON - A Movie Discovery Web App
+# PIXON - A Movie Discovery Web App (React)
 
-A responsive and modern movie discovery web application built with the MERN stack. PIXON allows users to explore, search for, and save their favorite movies, all powered by the public TMDB (The Movie Database) API.
-
+A responsive front-end movie discovery web application built entirely with **React.js**. PIXON allows users to explore, search for, and save their favorite movies by interacting directly with the public TMDB (The Movie Database) API.
 <!-- If you have a live link for PIXON, put it here. This is the most important part! -->
 ## 🌐 Live Demo
 
@@ -20,5 +19,6 @@ A responsive and modern movie discovery web application built with the MERN stac
 
 ## 🛠️ Technology Stack
 
-*   **Frontend:** React.js
+*   **Core Library:** React.js
 *   **External API:** The Movie Database (TMDB) API
+*   **Client-side Storage:** Browser Local Storage
