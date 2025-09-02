@@ -21,10 +21,4 @@ A responsive and modern movie discovery web application built with the MERN stac
 ## 🛠️ Technology Stack
 
 *   **Frontend:** React.js
-*   **Backend:** Node.js, Express.js (Used to securely handle API requests)
-*   **Database:** MongoDB (If you used it for anything, otherwise you can remove this)
 *   **External API:** The Movie Database (TMDB) API
-
-4.  **Start the application:**
-    *   To start the backend server: `npm start` (in the server directory)
-    *   To start the frontend client: `npm start` (in the client directory)
